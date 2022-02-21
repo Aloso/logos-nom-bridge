@@ -1,0 +1,18 @@
+[package]
+name = "logos-nom-bridge"
+description = "Implement nom parsers using logos tokens"
+authors = ["Ludwig Stecher <ludwig.stecher@gmx.de>"]
+version = "0.1.0"
+edition = "2021"
+categories = ["parsing"]
+keywords = ["parser", "lexer", "nom", "logos"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Aloso/logos-nom-bridge"
+documentation = "https://docs.rs/logos-nom-bridge"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+logos = "0.12.0"
+nom = "7.0.0"
